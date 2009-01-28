@@ -17,6 +17,7 @@
 		8D15AC2F0486D014006FF6A5 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 8D15AC361486D014006FF6A4 /* rb_main.rb */; };
 		8D15AC2F0486D014006FF6A6 /* MyDocument.rb in Resources */ = {isa = PBXBuildFile; fileRef = 8D15AC362486D014006FF6A4 /* MyDocument.rb */; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		B16988A60F305BF8002E8F31 /* MyEntity.rb in Resources */ = {isa = PBXBuildFile; fileRef = B16988A50F305BF8002E8F31 /* MyEntity.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		8D15AC361486D014006FF6A4 /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		8D15AC362486D014006FF6A4 /* MyDocument.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyDocument.rb; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* RbCocoaCoreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RbCocoaCoreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16988A50F305BF8002E8F31 /* MyEntity.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MyEntity.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				8D15AC362486D014006FF6A4 /* MyDocument.rb */,
+				B16988A50F305BF8002E8F31 /* MyEntity.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
 				8D15AC2F0486D014006FF6A5 /* rb_main.rb in Resources */,
 				8D15AC2F0486D014006FF6A6 /* MyDocument.rb in Resources */,
+				B16988A60F305BF8002E8F31 /* MyEntity.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
