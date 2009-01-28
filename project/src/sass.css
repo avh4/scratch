@@ -1,0 +1,7 @@
+---
+template: ~
+validator: ~
+--- pipeline:sass
+p
+  :background-color grey
+  :padding 5px
