@@ -1,5 +1,5 @@
 # Built-in 
-filters_pre: []
+filters_pre: ["haml"]
 extension: html
 filters_post: []
 skip_output: false
