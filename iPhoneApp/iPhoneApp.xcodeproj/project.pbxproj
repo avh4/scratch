@@ -25,6 +25,8 @@
 		B1B1CA5F0F3CC89D001E3909 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		B1B1CA600F3CC89F001E3909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		B1B1CA610F3CC8A0001E3909 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		B1B1CA6B0F3CCA0A001E3909 /* ExampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B1CA6A0F3CCA0A001E3909 /* ExampleTest.m */; };
+		B1B1CA730F3CCBA2001E3909 /* ExampleTest.testButton.iPhone.10.5.6.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B1CA720F3CCBA2001E3909 /* ExampleTest.testButton.iPhone.10.5.6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		B1B1CA5B0F3CC84B001E3909 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
 		B1B1CA5C0F3CC84B001E3909 /* GTMSystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSystemVersion.h; sourceTree = "<group>"; };
 		B1B1CA5D0F3CC84B001E3909 /* GTMSystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSystemVersion.m; sourceTree = "<group>"; };
+		B1B1CA6A0F3CCA0A001E3909 /* ExampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTest.m; sourceTree = "<group>"; };
+		B1B1CA720F3CCBA2001E3909 /* ExampleTest.testButton.iPhone.10.5.6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExampleTest.testButton.iPhone.10.5.6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,8 @@
 		B1B1CA670F3CC916001E3909 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				B1B1CA720F3CCBA2001E3909 /* ExampleTest.testButton.iPhone.10.5.6.png */,
+				B1B1CA6A0F3CCA0A001E3909 /* ExampleTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B1CA730F3CCBA2001E3909 /* ExampleTest.testButton.iPhone.10.5.6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +320,7 @@
 				B1B1CA580F3CC803001E3909 /* GTMNSObject+UnitTesting.m in Sources */,
 				B1B1CA590F3CC803001E3909 /* GTMUIKit+UnitTesting.m in Sources */,
 				B1B1CA5E0F3CC84B001E3909 /* GTMSystemVersion.m in Sources */,
+				B1B1CA6B0F3CCA0A001E3909 /* ExampleTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

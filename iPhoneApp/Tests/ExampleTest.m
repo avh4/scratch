@@ -1,0 +1,28 @@
+//
+//  ExampleTest.m
+//  iPhoneApp
+//
+//  Created by Aaron VonderHaar on 2/6/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import "GTMUIKit+UnitTesting.h"
+
+@interface ExampleTest : SenTestCase { }
+@end
+
+@implementation ExampleTest
+
+- (void)testTrue
+{
+  STAssertNotNULL(self, nil);
+}
+
+- (void)testButton
+{
+  UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+  [button setTitle:@"Button" forState:UIControlStateNormal];
+  GTMAssertObjectImageEqualToImageNamed(button, @"ExampleTest.testButton", nil);
+}
+
+@end
