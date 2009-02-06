@@ -7,6 +7,7 @@
 //
 
 #import "GTMUIKit+UnitTesting.h"
+#import <OCMock/OCMock.h>
 
 @interface ExampleTest : SenTestCase { }
 @end
@@ -23,6 +24,13 @@
   UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
   [button setTitle:@"Button" forState:UIControlStateNormal];
   GTMAssertObjectImageEqualToImageNamed(button, @"ExampleTest.testButton", nil);
+}
+
+- (void)testMock
+{
+  id mock = [OCMockObject mockForClass:[UIView class]];
+  [[[mock stub] andReturn:[UIColor brownColor]] backgroundColor];
+  STAssertEquals([mock backgroundColor], [UIColor brownColor], nil);
 }
 
 @end

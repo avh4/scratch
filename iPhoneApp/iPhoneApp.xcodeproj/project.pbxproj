@@ -27,7 +27,22 @@
 		B1B1CA610F3CC8A0001E3909 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		B1B1CA6B0F3CCA0A001E3909 /* ExampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B1CA6A0F3CCA0A001E3909 /* ExampleTest.m */; };
 		B1B1CA730F3CCBA2001E3909 /* ExampleTest.testButton.iPhone.10.5.6.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B1CA720F3CCBA2001E3909 /* ExampleTest.testButton.iPhone.10.5.6.png */; };
+		B1B1CA840F3CCD40001E3909 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B1CA830F3CCD40001E3909 /* OCMock.framework */; };
+		B1B1CA890F3CCDAF001E3909 /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B1B1CA830F3CCD40001E3909 /* OCMock.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1B1CA910F3CCDC7001E3909 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				B1B1CA890F3CCDAF001E3909 /* OCMock.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,7 +58,7 @@
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1B1CA410F3CC72E001E3909 /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Unit Tests.app"; path = "build/Debug-iphonesimulator/Unit Tests.app"; sourceTree = "<group>"; };
+		B1B1CA410F3CC72E001E3909 /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B1CA430F3CC72F001E3909 /* Unit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Tests-Info.plist"; sourceTree = "<group>"; };
 		B1B1CA470F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMIPhoneUnitTestDelegate.h; sourceTree = "<group>"; };
 		B1B1CA480F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMIPhoneUnitTestDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +77,7 @@
 		B1B1CA5D0F3CC84B001E3909 /* GTMSystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSystemVersion.m; sourceTree = "<group>"; };
 		B1B1CA6A0F3CCA0A001E3909 /* ExampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTest.m; sourceTree = "<group>"; };
 		B1B1CA720F3CCBA2001E3909 /* ExampleTest.testButton.iPhone.10.5.6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExampleTest.testButton.iPhone.10.5.6.png; sourceTree = "<group>"; };
+		B1B1CA830F3CCD40001E3909 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,7 @@
 				B1B1CA5F0F3CC89D001E3909 /* UIKit.framework in Frameworks */,
 				B1B1CA600F3CC89F001E3909 /* Foundation.framework in Frameworks */,
 				B1B1CA610F3CC8A0001E3909 /* CoreGraphics.framework in Frameworks */,
+				B1B1CA840F3CCD40001E3909 /* OCMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +162,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1B1CA830F3CCD40001E3909 /* OCMock.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
@@ -225,6 +243,7 @@
 			buildPhases = (
 				B1B1CA3D0F3CC72E001E3909 /* Resources */,
 				B1B1CA3E0F3CC72E001E3909 /* Sources */,
+				B1B1CA910F3CCDC7001E3909 /* CopyFiles */,
 				B1B1CA3F0F3CC72E001E3909 /* Frameworks */,
 				B1B1CA630F3CC8C0001E3909 /* ShellScript */,
 			);
@@ -359,6 +378,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -384,6 +407,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
