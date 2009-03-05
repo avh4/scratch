@@ -60,21 +60,21 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1B1CA410F3CC72E001E3909 /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B1CA430F3CC72F001E3909 /* Unit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Tests-Info.plist"; sourceTree = "<group>"; };
-		B1B1CA470F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMIPhoneUnitTestDelegate.h; sourceTree = "<group>"; };
-		B1B1CA480F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMIPhoneUnitTestDelegate.m; sourceTree = "<group>"; };
-		B1B1CA490F3CC76A001E3909 /* GTMIPhoneUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMIPhoneUnitTestMain.m; sourceTree = "<group>"; };
-		B1B1CA4D0F3CC7A4001E3909 /* GTMSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSenTestCase.h; sourceTree = "<group>"; };
-		B1B1CA4E0F3CC7A4001E3909 /* GTMSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSenTestCase.m; sourceTree = "<group>"; };
+		B1B1CA470F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMIPhoneUnitTestDelegate.h; path = UnitTesting/GTMIPhoneUnitTestDelegate.h; sourceTree = "<group>"; };
+		B1B1CA480F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMIPhoneUnitTestDelegate.m; path = UnitTesting/GTMIPhoneUnitTestDelegate.m; sourceTree = "<group>"; };
+		B1B1CA490F3CC76A001E3909 /* GTMIPhoneUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMIPhoneUnitTestMain.m; path = UnitTesting/GTMIPhoneUnitTestMain.m; sourceTree = "<group>"; };
+		B1B1CA4D0F3CC7A4001E3909 /* GTMSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMSenTestCase.h; path = UnitTesting/GTMSenTestCase.h; sourceTree = "<group>"; };
+		B1B1CA4E0F3CC7A4001E3909 /* GTMSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMSenTestCase.m; path = UnitTesting/GTMSenTestCase.m; sourceTree = "<group>"; };
 		B1B1CA500F3CC7CA001E3909 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		B1B1CA510F3CC803001E3909 /* GTMCALayer+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMCALayer+UnitTesting.h"; sourceTree = "<group>"; };
-		B1B1CA520F3CC803001E3909 /* GTMCALayer+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMCALayer+UnitTesting.m"; sourceTree = "<group>"; };
-		B1B1CA530F3CC803001E3909 /* GTMNSObject+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSObject+UnitTesting.h"; sourceTree = "<group>"; };
-		B1B1CA540F3CC803001E3909 /* GTMNSObject+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSObject+UnitTesting.m"; sourceTree = "<group>"; };
-		B1B1CA550F3CC803001E3909 /* GTMUIKit+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMUIKit+UnitTesting.h"; sourceTree = "<group>"; };
-		B1B1CA560F3CC803001E3909 /* GTMUIKit+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMUIKit+UnitTesting.m"; sourceTree = "<group>"; };
-		B1B1CA5B0F3CC84B001E3909 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
-		B1B1CA5C0F3CC84B001E3909 /* GTMSystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSystemVersion.h; sourceTree = "<group>"; };
-		B1B1CA5D0F3CC84B001E3909 /* GTMSystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSystemVersion.m; sourceTree = "<group>"; };
+		B1B1CA510F3CC803001E3909 /* GTMCALayer+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMCALayer+UnitTesting.h"; path = "UnitTesting/GTMCALayer+UnitTesting.h"; sourceTree = "<group>"; };
+		B1B1CA520F3CC803001E3909 /* GTMCALayer+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMCALayer+UnitTesting.m"; path = "UnitTesting/GTMCALayer+UnitTesting.m"; sourceTree = "<group>"; };
+		B1B1CA530F3CC803001E3909 /* GTMNSObject+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSObject+UnitTesting.h"; path = "UnitTesting/GTMNSObject+UnitTesting.h"; sourceTree = "<group>"; };
+		B1B1CA540F3CC803001E3909 /* GTMNSObject+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSObject+UnitTesting.m"; path = "UnitTesting/GTMNSObject+UnitTesting.m"; sourceTree = "<group>"; };
+		B1B1CA550F3CC803001E3909 /* GTMUIKit+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMUIKit+UnitTesting.h"; path = "UnitTesting/GTMUIKit+UnitTesting.h"; sourceTree = "<group>"; };
+		B1B1CA560F3CC803001E3909 /* GTMUIKit+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMUIKit+UnitTesting.m"; path = "UnitTesting/GTMUIKit+UnitTesting.m"; sourceTree = "<group>"; };
+		B1B1CA5B0F3CC84B001E3909 /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMGarbageCollection.h; path = Foundation/GTMGarbageCollection.h; sourceTree = "<group>"; };
+		B1B1CA5C0F3CC84B001E3909 /* GTMSystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMSystemVersion.h; path = Foundation/GTMSystemVersion.h; sourceTree = "<group>"; };
+		B1B1CA5D0F3CC84B001E3909 /* GTMSystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMSystemVersion.m; path = Foundation/GTMSystemVersion.m; sourceTree = "<group>"; };
 		B1B1CA6A0F3CCA0A001E3909 /* ExampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTest.m; sourceTree = "<group>"; };
 		B1B1CA720F3CCBA2001E3909 /* ExampleTest.testButton.iPhone.10.5.6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExampleTest.testButton.iPhone.10.5.6.png; sourceTree = "<group>"; };
 		B1B1CA830F3CCD40001E3909 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
@@ -174,15 +174,9 @@
 			isa = PBXGroup;
 			children = (
 				B1B1CA500F3CC7CA001E3909 /* GTMDefines.h */,
-				B1B1CA5A0F3CC81D001E3909 /* Foundation */,
-				B1B1CA3B0F3BA474001E3909 /* UnitTesting */,
-			);
-			path = "google-toolbox-for-mac-1-5-1";
-			sourceTree = "<group>";
-		};
-		B1B1CA3B0F3BA474001E3909 /* UnitTesting */ = {
-			isa = PBXGroup;
-			children = (
+				B1B1CA5B0F3CC84B001E3909 /* GTMGarbageCollection.h */,
+				B1B1CA5C0F3CC84B001E3909 /* GTMSystemVersion.h */,
+				B1B1CA5D0F3CC84B001E3909 /* GTMSystemVersion.m */,
 				B1B1CA470F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.h */,
 				B1B1CA480F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.m */,
 				B1B1CA490F3CC76A001E3909 /* GTMIPhoneUnitTestMain.m */,
@@ -195,17 +189,7 @@
 				B1B1CA550F3CC803001E3909 /* GTMUIKit+UnitTesting.h */,
 				B1B1CA560F3CC803001E3909 /* GTMUIKit+UnitTesting.m */,
 			);
-			path = UnitTesting;
-			sourceTree = "<group>";
-		};
-		B1B1CA5A0F3CC81D001E3909 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				B1B1CA5B0F3CC84B001E3909 /* GTMGarbageCollection.h */,
-				B1B1CA5C0F3CC84B001E3909 /* GTMSystemVersion.h */,
-				B1B1CA5D0F3CC84B001E3909 /* GTMSystemVersion.m */,
-			);
-			path = Foundation;
+			path = "google-toolbox-for-mac-1-5-1";
 			sourceTree = "<group>";
 		};
 		B1B1CA670F3CC916001E3909 /* Tests */ = {
