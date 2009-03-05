@@ -14,6 +14,7 @@
 @interface ImageLayer : CALayer
 {
 	NSString *imageName;
+  CGPDFDocumentRef pdf;
 }
 
 @property (nonatomic, retain) NSString *imageName;

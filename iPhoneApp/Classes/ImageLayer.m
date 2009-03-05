@@ -28,8 +28,7 @@
 	if (self != nil)
 	{
 		self.anchorPoint = CGPointMake(0.5, 0.5);
-		imageName = [newImageName retain];
-		[self setNeedsDisplay];
+    self.imageName = newImageName;
 		[self setFrame:newFrame];
 	}
 	return self;
@@ -46,6 +45,9 @@
 	{
 		[imageName release];
 		imageName = [newImageName retain];
+    CFURLRef pdfURL = CFBundleCopyResourceURL(CFBundleGetMainBundle(), (CFStringRef)newImageName, NULL, NULL);
+    pdf = CGPDFDocumentCreateWithURL(pdfURL);
+    CFRelease(pdfURL); pdfURL = NULL;
 		[self setNeedsDisplay];
 	} 
 }
@@ -57,12 +59,18 @@
 //
 - (void)drawInContext:(CGContextRef)ctx
 {
-	UIImage *image = [UIImage imageNamed:imageName];
-  [image drawInRect:self.bounds];
-  
+  CGPDFPageRef page = CGPDFDocumentGetPage(pdf, 1);
+  CGContextSaveGState(ctx);
   CGContextTranslateCTM(ctx, 0, self.bounds.size.height);
   CGContextScaleCTM(ctx, 1, -1);
-  CGContextDrawImage(ctx, self.bounds, image.CGImage);
+  CGContextSetRGBFillColor(ctx, .2, .2, .2, 1.0);
+//  CGContextFillRect(ctx, self.bounds);
+//  CGContextStrokeRect(ctx, self.bounds);
+  CGAffineTransform pdfTransform = CGPDFPageGetDrawingTransform(page, kCGPDFCropBox, self.bounds, 0, FALSE);
+  CGContextConcatCTM(ctx, pdfTransform);
+//  CGContextStrokeRect(ctx, CGPDFPageGetBoxRect(page, kCGPDFCropBox));
+  CGContextDrawPDFPage(ctx, page);
+  CGContextRestoreGState(ctx);
 }
 
 //
@@ -73,6 +81,7 @@
 - (void)dealloc
 {
 	[imageName release];
+  CGPDFDocumentRelease(pdf); pdf = NULL;
 	[super dealloc];
 }
 

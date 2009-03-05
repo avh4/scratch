@@ -46,7 +46,7 @@
 - (void)awakeFromNib
 {
   backgroundLayer = [[[ImageLayer alloc]
-                      initWithImageNamed:@"background.png"
+                      initWithImageNamed:@"background.pdf"
                       frame:CGRectZero]
                      autorelease];
   backgroundLayer.masksToBounds = YES;
