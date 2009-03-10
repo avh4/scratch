@@ -8,6 +8,7 @@
 
 #import "GTMUIKit+UnitTesting.h"
 #import <OCMock/OCMock.h>
+#import "GameView.h"
 
 @interface GameViewTest : SenTestCase { }
 @end
@@ -16,7 +17,7 @@
 
 - (void)testDefaultState
 {
-  GameView *gv = [[GameView alloc] init];
+  GameView *gv = [[GameView alloc] initWithFrame:CGRectMake(0,  0, 320, 480)];
   GTMAssertObjectImageEqualToImageNamed(gv, @"Game View default state.png", nil);
 }
 
