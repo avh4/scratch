@@ -15,6 +15,7 @@
 		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		B130A25E0F663C2100578745 /* GameViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B130A25D0F663C2100578745 /* GameViewTest.m */; };
 		B1B1CA4A0F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B1CA480F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.m */; };
 		B1B1CA4B0F3CC76A001E3909 /* GTMIPhoneUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B1CA490F3CC76A001E3909 /* GTMIPhoneUnitTestMain.m */; };
 		B1B1CA4F0F3CC7A4001E3909 /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B1CA4E0F3CC7A4001E3909 /* GTMSenTestCase.m */; };
@@ -58,6 +59,7 @@
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B130A25D0F663C2100578745 /* GameViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewTest.m; sourceTree = "<group>"; };
 		B1B1CA410F3CC72E001E3909 /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B1CA430F3CC72F001E3909 /* Unit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Tests-Info.plist"; sourceTree = "<group>"; };
 		B1B1CA470F3CC76A001E3909 /* GTMIPhoneUnitTestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMIPhoneUnitTestDelegate.h; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			children = (
 				B1B1CA720F3CCBA2001E3909 /* ExampleTest.testButton.iPhone.10.5.6.png */,
 				B1B1CA6A0F3CCA0A001E3909 /* ExampleTest.m */,
+				B130A25D0F663C2100578745 /* GameViewTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				B1B1CA590F3CC803001E3909 /* GTMUIKit+UnitTesting.m in Sources */,
 				B1B1CA5E0F3CC84B001E3909 /* GTMSystemVersion.m in Sources */,
 				B1B1CA6B0F3CCA0A001E3909 /* ExampleTest.m in Sources */,
+				B130A25E0F663C2100578745 /* GameViewTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
