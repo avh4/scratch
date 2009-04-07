@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="facebox-1.2/jquery-1.2.1.min.js" type="text/javascript"></script>
+    <link href="facebox-1.2/facebox.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script src="facebox-1.2/facebox.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $('a[rel*=facebox]').facebox() 
+      })
+    </script>
+  </head>
+
+  <body>
+    <a href="#info" rel="facebox">text</a>
+    <div id="info">
+      Div text
+    </div>
+  </body>
+</html>
