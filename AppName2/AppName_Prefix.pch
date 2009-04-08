@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'AppName2' target in the 'AppName2' project
+// Prefix header for all source files of the 'AppName1' target in the 'AppName1' project
 //
 
 #ifdef __OBJC__

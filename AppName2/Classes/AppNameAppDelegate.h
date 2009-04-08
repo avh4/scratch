@@ -1,6 +1,6 @@
 //
-//  AppName2AppDelegate.h
-//  AppName2
+//  AppName1AppDelegate.h
+//  AppName1
 //
 //  Created by Aaron VonderHaar on 4/7/09.
 //  Copyright SPAWAR Systems Center San Diego 2009. All rights reserved.
@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class AppName2ViewController;
+@class AppName1ViewController;
 
-@interface AppName2AppDelegate : NSObject <UIApplicationDelegate> {
+@interface AppName1AppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    AppName2ViewController *viewController;
+    AppName1ViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet AppName2ViewController *viewController;
+@property (nonatomic, retain) IBOutlet AppName1ViewController *viewController;
 
 @end
 

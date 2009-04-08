@@ -1,15 +1,15 @@
 //
-//  AppName2AppDelegate.m
-//  AppName2
+//  AppName1AppDelegate.m
+//  AppName1
 //
 //  Created by Aaron VonderHaar on 4/7/09.
 //  Copyright SPAWAR Systems Center San Diego 2009. All rights reserved.
 //
 
-#import "AppName2AppDelegate.h"
-#import "AppName2ViewController.h"
+#import "AppName1AppDelegate.h"
+#import "AppName1ViewController.h"
 
-@implementation AppName2AppDelegate
+@implementation AppName1AppDelegate
 
 @synthesize window;
 @synthesize viewController;

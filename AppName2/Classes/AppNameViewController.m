@@ -1,14 +1,14 @@
 //
-//  AppName2ViewController.m
-//  AppName2
+//  AppName1ViewController.m
+//  AppName1
 //
 //  Created by Aaron VonderHaar on 4/7/09.
 //  Copyright SPAWAR Systems Center San Diego 2009. All rights reserved.
 //
 
-#import "AppName2ViewController.h"
+#import "AppName1ViewController.h"
 
-@implementation AppName2ViewController
+@implementation AppName1ViewController
 
 
 
