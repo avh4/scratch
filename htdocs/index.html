@@ -6,20 +6,21 @@
   <title>### TITLE ###</title>
 </head>
 <body>
-  ### BODY ###
   <object width="560" height="340" id="player"><param name="movie" value="http://www.youtube.com/v/uW3k7h3dxww&hl=en&fs=1&enablejsapi=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/uW3k7h3dxww&hl=en&fs=1&enablejsapi=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
   
 <script type="text/javascript">
   var player = document.getElementById('player');
   
-  function restartVideo()
+  function updateTime()
   {
-    player.pauseVideo();
-    player.seekTo(0, false);
-    player.playVideo();
+    var div = document.getElementById('time');
+    var time = player.getCurrentTime();
+    div.innerHTML = time;
   }
 </script>
 
-  <a href="#" onclick="restartVideo();">play</a>
+  <a href="#" onclick="updateTime();">update</a>
+  
+  <div id="time">###TIME###</div>
 </body>
 </html>
