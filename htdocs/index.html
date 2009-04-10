@@ -7,6 +7,13 @@
 </head>
 <body>
   ### BODY ###
-  <object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/uW3k7h3dxww&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/uW3k7h3dxww&hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+  <object width="560" height="340" id="player"><param name="movie" value="http://www.youtube.com/v/uW3k7h3dxww&hl=en&fs=1&enablejsapi=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/uW3k7h3dxww&hl=en&fs=1&enablejsapi=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+  
+<script type="text/javascript">
+  var player = document.getElementById('player');
+  alert(player)
+</script>
+
+  <a href="#" onclick="player.playVideo();">play</a>
 </body>
 </html>
