@@ -11,9 +11,15 @@
   
 <script type="text/javascript">
   var player = document.getElementById('player');
-  alert(player)
+  
+  function restartVideo()
+  {
+    player.pauseVideo();
+    player.seekTo(0, false);
+    player.playVideo();
+  }
 </script>
 
-  <a href="#" onclick="player.playVideo();">play</a>
+  <a href="#" onclick="restartVideo();">play</a>
 </body>
 </html>
