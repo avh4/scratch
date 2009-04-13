@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-#import "MyNewProjectAppDelegate.h"
+#import "AppDelegate.h"
 
 
 @implementation RootViewController

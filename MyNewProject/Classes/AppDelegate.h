@@ -1,5 +1,5 @@
 //
-//  MyNewProjectAppDelegate.h
+//  AppDelegate.h
 //  MyNewProject
 //
 //  Created by Aaron VonderHaar on 4/10/09.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyNewProjectAppDelegate : NSObject <UIApplicationDelegate> {
+@interface AppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
     UINavigationController *navigationController;

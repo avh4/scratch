@@ -1,16 +1,16 @@
 //
-//  MyNewProjectAppDelegate.m
+//  AppDelegate.m
 //  MyNewProject
 //
 //  Created by Aaron VonderHaar on 4/10/09.
 //  Copyright __MyCompanyName__ 2009. All rights reserved.
 //
 
-#import "MyNewProjectAppDelegate.h"
+#import "AppDelegate.h"
 #import "RootViewController.h"
 
 
-@implementation MyNewProjectAppDelegate
+@implementation AppDelegate
 
 @synthesize window;
 @synthesize navigationController;
