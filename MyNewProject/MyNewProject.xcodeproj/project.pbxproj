@@ -28,7 +28,21 @@
 		B19CBCA40F92D37E00746225 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		B19CBCB10F92F4EB00746225 /* ExampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CBCB00F92F4EB00746225 /* ExampleTest.m */; };
 		B19CBCC30F93094300746225 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19CBCC20F93094300746225 /* OCMock.framework */; };
+		B19CBCD20F9309D600746225 /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B19CBCC20F93094300746225 /* OCMock.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B19CBCD70F9309E400746225 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				B19CBCD20F9309D600746225 /* OCMock.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -230,6 +244,7 @@
 			buildPhases = (
 				B19CBC590F92CDE600746225 /* Resources */,
 				B19CBC5A0F92CDE600746225 /* Sources */,
+				B19CBCD70F9309E400746225 /* CopyFiles */,
 				B19CBC5B0F92CDE600746225 /* Frameworks */,
 				B19CBC810F92D30400746225 /* ShellScript */,
 			);
